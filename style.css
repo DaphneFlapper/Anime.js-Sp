@@ -1,0 +1,55 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #249C4B;
+}
+
+.box {
+  width: 0.75rem;
+  height: 2rem;
+  background-color: white;
+  margin: 0.5rem;
+}
+
+
+.basis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 100%;
+}
+
+
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+img {
+  width: 25rem;
+  height: auto;
+  margin: -1rem 8rem 3rem 8rem;
+}
+
+a {
+  background-color: white;
+  color: #249C4B;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: none;
+  border: none;
+  text-decoration: none;
+  position: absolute;
+  left: 41.5rem;
+  top: 39rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:focus {
+    outline: none;
+}
